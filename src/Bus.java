@@ -3,15 +3,12 @@ public class Bus extends Transport {
     private String bodyType;
 
     public enum BodyType {
+
         ESPECIALLY_SMALL(""),
         SMALL(""),
         AVERAGE(""),
         LARGE(""),
-        ESPECIALLY_LARGE(""),
-        CROSSOVER(""),
-        PICKUP_TRUCK(""),
-        VAN(""),
-        MINIVAN("");
+        ESPECIALLY_LARGE("");
 
         private String type;
 
